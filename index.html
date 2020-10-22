@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo app</title>
+
+</head>
+
+<body>
+    <div class="container-sm w-30 mt-5">
+        <div class="card">
+            <div class="card-header bg-info justify-content-center d-flex">
+                <h2 class="text-center bg-dark text-white col-6">Todo app</h2>
+            </div>
+            <div class="carb-body">
+
+                <div class="container">
+                    <p class="display-4 text-center">List of activities</p>
+                    <div class="row d-flex justify-content-around">
+                        <h3 class="text-center font-weight-light">Enter list here</h3>
+                        <input type="text" autofocus="true" placeholder="Type...." class="w-50 rounded border-info"
+                            style="outline: none;" id="input-field" autocomplete="off">
+                        <button id="submit-btn" class="btn btn-primary btn-lg">Submit</button>
+                    </div>
+                </div>
+                <hr />
+                <div class="container mt-2">
+                    <div class="bg-secondary text-center w-75 m-auto">
+                        <h3 class="text-center font-weight-normal text-white">Your activities</h3>
+                    </div>
+                </div>
+                <div class="container wrapper p-2" id="result-container">
+                    <!--Add the task inside this div-->
+                </div>
+
+                <div class="container d-flex justify-content-center">
+                    <button type="button" class="btn btn-dark justify-content-center mt-3 clear">Clear All</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

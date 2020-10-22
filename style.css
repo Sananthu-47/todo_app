@@ -1,0 +1,65 @@
+.row-task {
+    max-width: 400px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.number {
+    min-width: 30px;
+    min-height: 30px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.inner-task {
+    width: 300px;
+    min-height: 30px;
+    padding: 0 5px;
+    text-align: center;
+    color: rgb(17, 17, 17);
+    background-color: rgb(176, 228, 248);
+    border: 1px solid white;
+    overflow-x: scroll;
+}
+
+.inner-task::-webkit-scrollbar {
+    display: none;
+}
+
+.buttons {
+    width: 60px;
+    height: 30px;
+    display: flex;
+}
+
+.completed {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(17, 255, 17);
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.deleted {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 45, 17);
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.active-task {
+    color: rgb(97, 252, 97);
+}
+
+.line-through
+{
+    text-decoration: line-through;
+}
