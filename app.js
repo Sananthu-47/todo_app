@@ -71,7 +71,7 @@ function contentLoad() {
         tasks = JSON.parse(localStorage.getItem('tasks'));
         actives = JSON.parse(localStorage.getItem('actives'));
         overTasks = JSON.parse(localStorage.getItem('overTasks'));
-    }
+
     //This will loop over the local storage to get the data form local storage and load it into the DOM
     tasks.forEach(function (task) {
         let row = document.createElement('div');
@@ -117,6 +117,7 @@ function contentLoad() {
             completedAc[color].classList.add('line-through');
         }
     });
+    }
 }
 //MAin function to add the data to the DOM
 function addValues(task) {
